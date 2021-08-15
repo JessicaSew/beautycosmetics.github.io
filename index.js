@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function fetchMakeup(makeupContainer) 
 {
-    fetch('http://makeup-api.herokuapp.com/api/v1/products.json?product_catergory')
+    fetch('https://makeup-api.herokuapp.com/api/v1/products.json?product_catergory')
     .then(res => res.json())
     .then(data => 
         {
